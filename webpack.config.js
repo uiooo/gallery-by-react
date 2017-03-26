@@ -12,7 +12,7 @@ module.exports = {
     },
     output: {
         path: _BUILD, 
-        publicPath: '/build/',
+        publicPath: './build/images',
         filename: '[name].bundle.js'    
     },
     module: {
