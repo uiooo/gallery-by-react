@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+﻿const webpack = require('webpack');
 const path = require('path');
 const ROOT_PATH = path.resolve(__dirname);
 const _BUILD = path.resolve(ROOT_PATH,'build');
@@ -12,7 +12,7 @@ module.exports = {
     },
     output: {
         path: _BUILD, 
-        publicPath: path.join(ROOT_PATH,'/build/'),
+        publicPath: '/build/',
         filename: '[name].bundle.js'    
     },
     module: {
